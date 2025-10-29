@@ -62,16 +62,19 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Yazhe Niu.</h2>;
   const three = (
-    <h3 className="big-heading">I build things for AI-native games and their creation platform.</h3>
+    <h3 className="big-heading">
+      I'm building AI-native games and the platforms that empower their creation.
+    </h3>
   );
   const four = (
     <>
       <p>
-        I'm an researcher who specializes in deep reinforcement learning and game AI, aiming to
-        create proactive multi-modal interactions. Currently, I’m focused on building independent
-        games with{' '}
+        I'm on a mission to create game worlds that feel truly alive. My research in Deep
+        Reinforcement Learning is the engine behind this, focused on pioneering proactive AI that
+        sees, hears, and understands. I'm currently bringing this to life in an AI-native indie game
+        that blends deep simulation with{' '}
         <a href="https://en.wikipedia.org/wiki/Roguelike" target="_blank" rel="noreferrer">
-          Roguelike characteristics
+          emergent Roguelike storytelling
         </a>
         .
       </p>
@@ -79,7 +82,7 @@ const Hero = () => {
   );
   const five = (
     <a className="email-link" href="https://github.com/opendilab" target="_blank" rel="noreferrer">
-      Check out our projects on GitHub!
+      Check out our open-source projects on GitHub!
     </a>
   );
 

@@ -125,7 +125,13 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Game AI',
+    'General and Efficient RL',
+    'Multi-modal Foundation Models',
+    'Distributed RL System',
+    'LLM Post-training Framework',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,10 +141,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Yazhe Niu. I'm driven by a simple belief: every interesting game
+              idea deserves to be fully realized, from its initial spark to its final form. As the
+              Decision AI Open Source Lead at Shanghai AI Lab and SenseTime, I spearheaded the
+              formation of a 20-person team from the ground up. Together, we cultivated a thriving
+              ecosystem for our projects, amassing a collective total of 28,000+ GitHub stars. I
+              hold a PhD from MMLab, CUHK, supervised by Prof. Hongsheng Li.
             </p>
 
             <p>

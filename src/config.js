@@ -4,7 +4,7 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/opendilab',
+      url: 'https://github.com/PaParaZz1',
     },
     {
       name: 'Zhihu',
@@ -32,6 +32,10 @@ module.exports = {
     {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Publication',
+      url: '/#publications',
     },
     {
       name: 'Contact',
