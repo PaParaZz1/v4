@@ -3,7 +3,8 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Yazhe Niu',
-    description: 'Yazhe Niu is a AI researcher who specializes in deep reinforcement learning and game AI, aim to create proactive multi-modal interactions.',
+    description:
+      'Yazhe Niu is an AI researcher who specializes in deep reinforcement learning and game AI, aim to create proactive multi-modal interactions.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
@@ -76,7 +77,6 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
             },
           },
           {
@@ -149,9 +149,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingIds: ['UA-45666519-2'],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
       },
     },
   ],
