@@ -1,26 +1,22 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'niuyazhe314@outlook.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/opendilab',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      name: 'Zhihu',
+      url: 'https://www.zhihu.com/people/dilab-46',
+    },
+    {
+      name: 'Scholar',
+      url: 'https://scholar.google.com/citations?user=P3BUrBQAAAAJ&hl=zh-TW',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://twitter.com/OpenDILab',
     },
   ],
 

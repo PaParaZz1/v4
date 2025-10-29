@@ -13,8 +13,10 @@ import {
   IconLoader,
   IconLogo,
   IconPlayStore,
+  IconScholar,
   IconStar,
   IconTwitter,
+  IconZhihu,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -47,6 +49,10 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'Zhihu':
+      return <IconZhihu />;
+    case 'Scholar':
+      return <IconScholar />;
     default:
       return <IconExternal />;
   }
