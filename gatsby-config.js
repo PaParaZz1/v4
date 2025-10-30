@@ -2,10 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Yazhe Niu',
-    description:
-      'Yazhe Niu is an AI researcher who specializes in deep reinforcement learning and game AI, aim to create proactive multi-modal interactions.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    title: 'Yazhe Niu\'s Personal Website',
+    description: 'I\'m building AI-native games and the platforms that empower their creation.',
+    siteUrl: 'https://nyz.gee-yee.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
