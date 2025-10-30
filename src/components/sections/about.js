@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(180px, 250px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -126,11 +126,12 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Game AI',
-    'General and Efficient RL',
-    'Multi-modal Foundation Models',
+    'Game AI Agents',
     'Distributed RL System',
+    'General and Efficient RL',
     'LLM Post-training Framework',
+    'RLVR in Foundation Models',
+    'Multi-modal Interactions',
   ];
 
   return (
@@ -141,35 +142,37 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yazhe Niu. I'm driven by a simple belief: every interesting game
-              idea deserves to be fully realized, from its initial spark to its final form. As the
-              Decision AI Open Source Lead at Shanghai AI Lab and SenseTime, I spearheaded the
-              formation of a 20-person team from the ground up. Together, we cultivated a thriving
-              ecosystem for our projects, amassing a collective total of 28,000+ GitHub stars. I
-              hold a PhD from MMLab, CUHK, supervised by Prof. Hongsheng Li.
+              Hello! My name is Yazhe Niu. I'm driven by a simple belief: every interesting idea
+              deserves to be fully realized, from its initial spark to its final form. As the
+              Research Lead of <a href="https://github.com/opendilab">OpenDILab</a> at Shanghai AI
+              Lab, I spearheaded the formation of a 20-person team from the ground up. Together, we
+              cultivated a thriving ecosystem for our projects, amassing a total of 28,000+ GitHub
+              stars. I hold a PhD from <a href="https://mmlab.ie.cuhk.edu.hk/">MMLab</a>, CUHK,
+              supervised by Prof. Hongsheng Li.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://www.shlab.org.cn/">a research lab</a> for open-source AI projects,{' '}
+              <a href="https://www.sensetime.com/">a large corporation</a> with thousands of GPUs
+              cluster for training foundation models. My main focus these days is to build the R&D
+              engine for AI-native games by integrating Deep RL with multi-modal foundation models.
+              I'm defining a new creative paradigm: <b>Vibe to Game</b>. It's a call for a new
+              human-AI symbiosis in game design—machines for generation & analysis, humans for
+              imagination & empathy.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I also <a href="https://github.com/opendilab/PPOxFamily">launched a course</a> and{' '}
+              <a href="https://www.zhihu.com/people/dilab-46/columns">technical blog series</a> that
+              introduces a deep 'under-the-hood' understanding of{' '}
+              <a href="https://arxiv.org/abs/1707.06347">PPO</a> and{' '}
+              <a href="https://arxiv.org/abs/1911.08265">MCTS</a> algorithm, enabling developers to
+              wield a single, elegant solution across diverse decision-making AI (e.g. game)
+              applications.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies that I'm deeply expertise in:</p>
           </div>
 
           <ul className="skills-list">
