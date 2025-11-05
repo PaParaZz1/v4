@@ -1,4 +1,5 @@
 ---
+order: 4
 date: '2025'
 title: 'Mastermind'
 github: 'https://github.com/opendilab/Mastermind'

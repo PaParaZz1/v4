@@ -1,4 +1,5 @@
 ---
+order: 5
 date: '2023'
 title: 'LLMRiddles'
 github: 'https://github.com/opendilab/LLMRiddles'

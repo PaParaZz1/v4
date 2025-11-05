@@ -63,16 +63,16 @@ const Hero = () => {
   const two = <h2 className="big-heading">Yazhe Niu.</h2>;
   const three = (
     <h3 className="big-heading">
-      I'm building AI-native games and the platforms that empower their creation.
+      I’m creating AI-native games and the infra empowering a new generation of interactions.
     </h3>
   );
   const four = (
     <>
       <p>
-        I'm on a mission to create game worlds that feel truly alive. My research in Deep
-        Reinforcement Learning is the engine behind this, focused on pioneering proactive AI that
-        sees, hears, and understands. I'm currently bringing this to life in an AI-native indie game
-        that blends deep simulation with{' '}
+        My mission is to make virtual worlds feel truly alive — with characters that think, learn,
+        and evolve. My career in Deep Reinforcement Learning is the engine behind this, focused on
+        pioneering proactive AI that sees, hears, and understands. I'm now bringing this vision to
+        life through an AI-native indie game that blends deep simulation with{' '}
         <a href="https://en.wikipedia.org/wiki/Roguelike" target="_blank" rel="noreferrer">
           emergent Roguelike storytelling
         </a>

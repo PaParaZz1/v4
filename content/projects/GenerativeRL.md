@@ -1,4 +1,5 @@
 ---
+order: 6
 date: '2024'
 title: 'GenerativeRL'
 github: 'https://github.com/opendilab/GenerativeRL'

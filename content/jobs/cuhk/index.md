@@ -7,6 +7,6 @@ range: 'Aug 2022 - Sep 2025'
 url: 'https://mmlab.ie.cuhk.edu.hk/'
 ---
 
-- Pioneer a series of general and efficient MCTS-based RL algorithms (LightZero → UniZero → ScaleZero) that integrate world-model planning with multi-task RL optimization to build foundational models for decision-making AI.
-- Advance the efficiency and reliability of Reinforcement Learning in gaming, with expertise in multi-agent and offline RL.
-- Explore novel multi-modal interactions paradigm with post-training techniques, including image metaphor (e.g., meme) generation, GUI agents, and speech/singing voice synthesis.
+- Pioneered a series of general and efficient MCTS-based RL algorithms (LightZero → UniZero → ScaleZero) that integrate world-model planning with multi-task RL optimization, and establishing a **scalable foundation for decision-making AI**.
+- Advanced the efficiency and reliability of Reinforcement Learning in gaming, with expertise in multi-agent and offline RL.
+- Explored novel multi-modal interactions paradigm with post-training techniques, including **image-metaphor generation (e.g., memes), GUI agents, and speech/singing voice synthesis**.

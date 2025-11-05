@@ -1,4 +1,5 @@
 ---
+order: 1
 date: '2021'
 title: 'DI-star'
 github: 'https://github.com/opendilab/DI-star'
