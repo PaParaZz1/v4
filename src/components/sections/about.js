@@ -142,34 +142,36 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yazhe Niu. I'm driven by a simple belief: every powerful idea
-              deserves to be fully realized, from its first spark to its final form. As Research
-              Lead of <a href="https://github.com/opendilab">OpenDILab</a> at Shanghai AI Lab, I
-              built a 20-person team from the ground up and led it to create one of China’s most
-              influential open-source decision AI ecosystems, amassing over 28,000+ GitHub stars. I
-              hold a PhD from <a href="https://mmlab.ie.cuhk.edu.hk/">MMLab</a>, CUHK, supervised by
-              Prof. Hongsheng Li.
+              Hello! My name is Yazhe Niu. I'm driven by a belief: every powerful idea deserves to
+              be fully realized, from its first spark to its final form. As Research Lead of{' '}
+              <a href="https://github.com/opendilab">OpenDILab</a> at Shanghai AI Lab, I built a
+              20-person team from the ground up and led it to create one of China’s most influential
+              open-source decision AI ecosystems, amassing over 28,000+ GitHub stars. I hold a PhD
+              from <a href="https://mmlab.ie.cuhk.edu.hk/">MMLab</a>, CUHK, supervised by Prof.
+              Hongsheng Li.
             </p>
 
             <p>
               Since then, I’ve had the privilege of working at{' '}
               <a href="https://www.shlab.org.cn/">a research lab</a> for open-source AI projects and{' '}
-              <a href="https://www.sensetime.com/">a large corporation</a> with thousands of GPUs
-              cluster for training foundation models. Today, my focus is on building the R&D engine
-              for AI-native games by integrating Deep RL with multimodal foundation models to enable
-              truly adaptive, generative worlds. I'm defining a new creative paradigm:{' '}
-              <b>Vibe to Game</b> — a vision of human-AI symbiosis in game design: machines for
-              generation and analysis; humans for imagination & empathy.
+              <a href="https://www.sensetime.com/">a large corporation</a> for foundation model
+              training with thousands of GPUs cluster for training foundation models. Today, my
+              focus is on building the R&D engine for <b>AI-native games</b> by integrating Deep RL
+              with multimodal foundation models to enable truly adaptive, generative worlds. I'm
+              defining a new creative paradigm: <b>Vibe to Game</b> — a vision of human-AI symbiosis
+              in game design: machines for generation and analysis; humans for imagination &
+              empathy.
             </p>
 
             <p>
               I also <a href="https://github.com/opendilab/PPOxFamily">launched a course</a> and{' '}
-              <a href="https://www.zhihu.com/people/dilab-46/columns">technical blog series</a>
+              <a href="https://www.zhihu.com/people/dilab-46/columns">technical blog series</a>{' '}
               offering an in-depth, under-the-hood exploration of{' '}
               <a href="https://arxiv.org/abs/1707.06347">PPO</a> and{' '}
-              <a href="https://arxiv.org/abs/1911.08265">MCTS</a> algorithms, helping developers
-              apply a unified and elegant approach to diverse decision-making AI applications,
-              especially in game.
+              <a href="https://arxiv.org/abs/1911.08265">MCTS</a> algorithms. This initiative has
+              cultivated a vibrant community of developers, fostering a unified and elegant approach
+              to building decision-making AI that is now being applied across a diverse range of
+              applications, particularly in gaming.
             </p>
 
             <p>Here are some of the technologies I have deep expertise in:</p>

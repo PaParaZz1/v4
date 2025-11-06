@@ -60,10 +60,11 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I'm launching Gee-Yee (极诣), an AI x Game startup dedicated to pioneering the next frontier
-        of human-AI symbiosis. We are creating games with novel, proactive multi-modal interactions
-        and building the open platform to power this new creative paradigm We warmly invite those
-        who share our vision to contribute ideas worth spreading.
+        I'm founding <b>Gee-Yee (极诣)</b>, an AI x Game startup exploring the next frontier of
+        human-AI symbiosis. We’re building new forms of plays/interactions (e.g. game) driven by
+        proactive, multimodal interaction, and developing the open platform that will enable this
+        new creative ecosystem. If this vision resonates with you, we welcome collaborators,
+        thinkers, and builders who believe in ideas worth spreading.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

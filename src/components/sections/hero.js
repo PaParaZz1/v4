@@ -71,7 +71,7 @@ const Hero = () => {
       <p>
         My mission is to make virtual worlds feel truly alive — with characters that think, learn,
         and evolve. My career in Deep Reinforcement Learning is the engine behind this, focused on
-        pioneering proactive AI that sees, hears, and understands. I'm now bringing this vision to
+        pioneering proactive, powerful and human-like AI agents. I'm now bringing this vision to
         life through an AI-native indie game that blends deep simulation with{' '}
         <a href="https://en.wikipedia.org/wiki/Roguelike" target="_blank" rel="noreferrer">
           emergent Roguelike storytelling
